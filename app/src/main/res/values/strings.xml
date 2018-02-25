@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ScoreKeeperAppProject2</string>
+
+    <!-- Header text  -->
+    <string name="play_game">play game</string>
+
+    <!-- Header text Team A  -->
+    <string name="team_a">Team A</string>
+
+    <!-- text on Goal Button -->
+    <string name="goal">GOAL</string>
+
+    <!-- text on Fault Button -->
+    <string name="fault">FAULT</string>
+
+    <!-- text on Corner Button -->
+    <string name="corner">CORNER</string>
+
+    <!-- text on RED Card Button -->
+    <string name="red_card">RED CARD</string>
+
+    <!-- text on YELLOW Card Button -->
+    <string name="yellow_card">YELLOW CARD</string>
+
+    <!-- Header text Team B  -->
+    <string name="team_b">Team B</string>
+
+    <!-- text on RESET Button -->
+    <string name="reset">RESET</string>
+
+
+
+</resources>
