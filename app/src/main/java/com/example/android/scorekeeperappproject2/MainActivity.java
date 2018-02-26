@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-    int scoreTeamA = 0, faultsTeamA = 0, cornersTeamA = 0, redCardsTeamA = 0, yellowCardsTeamA = 0;
-    int scoreTeamB = 0, faultsTeamB = 0, cornersTeamB = 0, redCardsTeamB = 0, yellowCardsTeamB = 0;
+    int scoreTeamA, faultsTeamA, cornersTeamA, redCardsTeamA, yellowCardsTeamA;
+    int scoreTeamB, faultsTeamB, cornersTeamB, redCardsTeamB, yellowCardsTeamB;
 
 
     @Override
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA, faultsTeamA, cornersTeamA, redCardsTeamA, yellowCardsTeamA);
     }
     /**
-     * This method is called when the Team A red card button is clicked
+     * This method is called when the Team A yellow card button is clicked
      */
     public void yellowCardA(View v) {
         yellowCardsTeamA = yellowCardsTeamA + 1;

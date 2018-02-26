@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,10 +15,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="@dimen/margin_big"
             android:text="@string/play_game"
-            android:textColor="#1B5E20"
-            android:textSize="30sp"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_title"
             android:textStyle="bold" />
 
 
@@ -27,8 +28,7 @@
 
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/layout"
                 android:layout_marginBottom="100dp"
                 android:orientation="horizontal">
 
@@ -54,9 +54,8 @@
 
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20sp">
+                        style="@style/layout"
+                        android:layout_marginTop="20dp">
 
 
                         <TextView
@@ -74,9 +73,7 @@
 
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
+                        style="@style/layout">
 
                         <TextView
                             android:id="@+id/team_a_corners"
@@ -90,14 +87,13 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        style="@style/layout">
 
 
                         <TextView
                             android:id="@+id/team_a_redcards"
                             style="@style/PointsText"
-                            android:background="#D50000" />
+                            android:background="@color/red" />
 
                         <Button
                             style="@style/ButtonPoints"
@@ -108,14 +104,13 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        style="@style/layout">
 
 
                         <TextView
                             android:id="@+id/team_a_yellowcards"
                             style="@style/PointsText"
-                            android:background="#FFD600" />
+                            android:background="@color/yellow" />
 
                         <Button
                             style="@style/ButtonPoints"
@@ -156,8 +151,7 @@
 
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/layout"
                         android:layout_marginTop="20sp"
                         android:gravity="end">
 
@@ -175,8 +169,7 @@
 
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/layout"
                         android:gravity="end">
 
 
@@ -192,8 +185,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/layout"
                         android:gravity="end">
 
 
@@ -205,13 +197,12 @@
                         <TextView
                             android:id="@+id/team_b_redcards"
                             style="@style/PointsText"
-                            android:background="#D50000" />
+                            android:background="@color/red" />
 
                     </LinearLayout>
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/layout"
                         android:gravity="end">
 
 
@@ -223,7 +214,7 @@
                         <TextView
                             android:id="@+id/team_b_yellowcards"
                             style="@style/PointsText"
-                            android:background="#FFD600" />
+                            android:background="@color/yellow" />
 
                     </LinearLayout>
 
